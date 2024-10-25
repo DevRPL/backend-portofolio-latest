@@ -6,7 +6,7 @@ use App\Models\Product;
 
 class ProductDevelopmentController extends Controller
 {
-    public function indec()
+    public function index()
     {
         $data = Product::all();
 
